@@ -32,7 +32,8 @@
     "react-router-dom": "^7.0.2",
     "rtc-pair-socket": "^0.1.5",
     "spotify-web-api-node": "^5.0.2",
-    "summon-ts": "^0.2.1"
+    "summon-ts": "^0.2.1",
+    "vite-plugin-mock": "^3.0.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.2.0",
