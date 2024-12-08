@@ -17,9 +17,9 @@ const HomePage: React.FC = () => {
 
     return (
         <div className="home-page">
-            <h1 className="text-2xl font-bold">Swipe Profiles</h1>
+            <h1>Swipe Profiles</h1>
             <SwipeableProfile profiles={dummyProfiles} onSwipe={handleSwipe} />
-            <Link to="/chat" className="mt-4">Go to Chat</Link>
+            <Link to="/chat">Go to Chat</Link>
         </div>
     );
 };

@@ -2,12 +2,12 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import dummyProfiles from '../data/dummyProfiles';
 
-// @ts-ignore
 interface ProfileParams {
     id: string;
 }
+
 const ProfileDetails: React.FC = () => {
-    const { id } = useParams<{ id: string }>();
+    const { id } = useParams<ProfileParams>();
     
     // Ensure id is defined before using it
     if (!id) {
@@ -29,4 +29,4 @@ const ProfileDetails: React.FC = () => {
     );
 };
 
-export default ProfileDetails;
+export default ProfileDetails; 
