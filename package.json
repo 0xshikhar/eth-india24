@@ -19,10 +19,15 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
     "emp-wasm-backend": "^0.1.0",
     "events": "^3.3.0",
     "mpc-framework": "^0.1.1",
     "peerjs-js-binarypack": "^2.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.2",
     "rtc-pair-socket": "^0.1.5",
     "summon-ts": "^0.2.1"
   },
