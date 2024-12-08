@@ -14,7 +14,7 @@ export default function MatchingInterface() {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ userId: currentUser?.id }),
+                body: JSON.stringify({ userId: currentUser?.id }), 
             });
 
             const matches = await response.json();
@@ -68,7 +68,7 @@ export default function MatchingInterface() {
         disabled = { isLoading }
         className = "bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 disabled:bg-blue-300"
             >
-            { isLoading? 'Finding Matches...': 'Find Matches' }
+            { isLoading? 'Finding...': 'Find Matches' }
             </button>
 
         {
